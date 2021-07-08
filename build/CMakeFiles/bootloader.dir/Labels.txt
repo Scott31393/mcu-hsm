@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/tmp/hello_world/build/CMakeFiles/bootloader
+/tmp/hello_world/build/CMakeFiles/bootloader.rule
+/tmp/hello_world/build/CMakeFiles/bootloader-complete.rule
+/tmp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/tmp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/tmp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/tmp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/tmp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/tmp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/tmp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

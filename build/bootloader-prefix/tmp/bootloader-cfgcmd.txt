@@ -1,0 +1,1 @@
+cmd='/home/tom/.espressif/tools/cmake/3.16.4/bin/cmake;-DSDKCONFIG=/tmp/hello_world/sdkconfig;-DIDF_PATH=/home/tom/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/tmp/test/bin/python;-DEXTRA_COMPONENT_DIRS=/home/tom/esp/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

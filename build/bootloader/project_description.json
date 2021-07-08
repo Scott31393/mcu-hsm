@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/tom/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/tmp/hello_world/build/bootloader",
+    "config_file":        "/tmp/hello_world/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/tom/esp/esp-idf/components/efuse/Kconfig;/home/tom/esp/esp-idf/components/esp32/Kconfig;/home/tom/esp/esp-idf/components/esp_common/Kconfig;/home/tom/esp/esp-idf/components/esp_system/Kconfig;/home/tom/esp/esp-idf/components/log/Kconfig;/home/tom/esp/esp-idf/components/newlib/Kconfig;/home/tom/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/tom/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/tom/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/tom/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/tom/esp/esp-idf/components/bootloader", "/home/tom/esp/esp-idf/components/bootloader_support", "/home/tom/esp/esp-idf/components/efuse", "/home/tom/esp/esp-idf/components/esp32", "/home/tom/esp/esp-idf/components/esp_common", "/home/tom/esp/esp-idf/components/esp_hw_support", "/home/tom/esp/esp-idf/components/esp_rom", "/home/tom/esp/esp-idf/components/esp_system", "/home/tom/esp/esp-idf/components/esptool_py", "/home/tom/esp/esp-idf/components/hal", "/home/tom/esp/esp-idf/components/log", "/home/tom/esp/esp-idf/components/bootloader/subproject/main", "/home/tom/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/tom/esp/esp-idf/components/newlib", "/home/tom/esp/esp-idf/components/partition_table", "/home/tom/esp/esp-idf/components/soc", "/home/tom/esp/esp-idf/components/spi_flash", "/home/tom/esp/esp-idf/components/xtensa", "" ]
+}
