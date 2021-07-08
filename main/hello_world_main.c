@@ -7,6 +7,7 @@
    CONDITIONS OF ANY KIND, either express or implied.
 */
 #include <stdio.h>
+#include <assert.h>
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -25,9 +26,7 @@
  *   M. Samek 02-11-25
  */
 
-#include <stdio.h>
-#include <assert.h>
-#include "hsm.h"
+
 
 static Queue q;
 static Queue *qp = &q;
